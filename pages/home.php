@@ -48,7 +48,7 @@
 
 		<div class="center">
 			<div id="depoimentos" class="w50 left depoimentos-container">
-				<h2 class="title">Feedbacks</h2>
+				<h2 class="title">Depoimentos</h2>
 				<?php
 					$sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.depoimentos` ORDER BY order_id ASC LIMIT 3");
 					$sql->execute();

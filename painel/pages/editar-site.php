@@ -24,12 +24,12 @@
 		</div><!--form-group-->
 
 		<div class="form-group">
-			<label>Nome do autor do site:</label>
+			<label>Titulo da sessão</label>
 			<input type="text" name="nome_autor" value="<?php echo $site['nome_autor'] ?>" />
 		</div><!--form-group-->
 
 		<div class="form-group">
-			<label>Descrição do autor do site:</label>
+			<label>Descrição do site:</label>
 			<textarea name="descricao"><?php echo $site['descricao']; ?></textarea>
 		</div><!--form-group-->
 
