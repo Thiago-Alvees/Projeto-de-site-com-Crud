@@ -5,7 +5,7 @@ $(function(){
 	function initialize() {
 
 	  var mapProp = {
-	    center:new google.maps.LatLng(-5.609959,-35.576585),
+	    center:new google.maps.LatLng(-5.861081768085589, -35.19285423429457),
 	    zoom:14,
 	   	scrollwheel: false,
 	     styles: [{
@@ -116,7 +116,7 @@ $(function(){
 			
 			setTimeout(function(){
 				initialize();
-				addMarker(-5.609959,-35.576585,'',"Minha casa",undefined,false);
+				addMarker(-5.861081768085589, -35.19285423429457,'',"Minha casa",undefined,false);
 
 			},1000);
 
