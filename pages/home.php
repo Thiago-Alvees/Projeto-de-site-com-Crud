@@ -25,17 +25,17 @@
 		<div class="center">
 			<div class="w33 left box-especialidade">
 					<h3><i class="<?php echo $infoSite['icone1']; ?>" aria-hidden="true"></i></h3>
-					<h4>CSS3</h4>
+					<h4></h4>
 					<p><?php echo $infoSite['descricao1']; ?></p>
 			</div><!--box-especialidade-->
 			<div class="w33 left box-especialidade">
 				<h3><i class="<?php echo $infoSite['icone2']; ?>" aria-hidden="true"></i></h3>
-				<h4>HTML5</h4>
+				<h4></h4>
 				<p><?php echo $infoSite['descricao2']; ?></p>
 			</div><!--box-especialidade-->
 			<div class="w33 left box-especialidade">
 				<h3><i class="<?php echo $infoSite['icone3']; ?>" aria-hidden="true"></i></h3>
-				<h4>JavaScript</h4>
+				<h4></h4>
 				<p><?php echo $infoSite['descricao3']; ?></p>
 			</div><!--box-especialidade-->
 			
@@ -48,7 +48,7 @@
 
 		<div class="center">
 			<div id="depoimentos" class="w50 left depoimentos-container">
-				<h2 class="title">Feedbacks</h2>
+				<h2 class="title">Depoimentos</h2>
 				<?php
 					$sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.depoimentos` ORDER BY order_id ASC LIMIT 3");
 					$sql->execute();
